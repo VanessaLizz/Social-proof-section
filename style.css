@@ -1,0 +1,87 @@
+:root {
+    --fonte: "League Spartan";
+    --roxo-escuro: hsl(300, 43%, 22%);
+    --rosa: hsl(333, 80%, 67%);
+    --roxo-claro: hsl(303, 10%, 53%);
+    --cinza-claro: hsl(300, 23%, 95%);
+    --branco: hsl(0, 0%, 100%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--fonte);
+    font-size: 15px;
+    font-weight: 500;
+    margin: 2rem 1rem;
+}
+
+.titulo__inicio {
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--roxo-escuro);
+    text-align: center;
+    padding: 2rem;
+    line-height: 27px;
+}
+
+.descriçao__inicio {
+    font-size: 18px;
+    color: var(--roxo-claro);
+    line-height: 20px;
+    text-align: center;
+}
+
+.container__estrelas {
+    width: 100%;
+    margin: 2.5rem 0;  
+}
+
+.sessao__estrelas {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.caixa__estrelas {
+    text-align: center;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 10px;
+    background: var(--cinza-claro);
+    padding: 0.75rem 0;
+    font-weight: 700;
+    color: var(--roxo-escuro);
+}
+
+.descriçao__estrelas {
+    margin-top: 0.25em;
+}
+
+.container__avaliaçao {
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.sessao__avaliaçao {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.caixa__avaliaçao {
+    border: 1px solid var(--roxo-escuro);
+    border-radius: 10px;
+    background: var(--roxo-escuro);
+    padding: 0.75rem 0;
+    font-weight: 400;
+    color: var(--branco);
+}
+
+.primeiraparte {
+    display: flex;
+}
+
+.imagem__avaliaçao {
+    border-radius: 50px;
+}
