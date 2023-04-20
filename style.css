@@ -111,3 +111,10 @@ body {
     gap: 0.25rem;
     margin-left: 0.5rem;
 }
+
+/* versão desktop */
+
+@media screen and (min-width: 1440px) {
+   
+}
+   
