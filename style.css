@@ -73,7 +73,7 @@ body {
     border: 1px solid var(--roxo-escuro);
     border-radius: 10px;
     background: var(--roxo-escuro);
-    padding: 0.75rem 0;
+    padding: 2rem 1.7rem;
     font-weight: 400;
     color: var(--branco);
 }
@@ -84,4 +84,30 @@ body {
 
 .imagem__avaliaçao {
     border-radius: 50px;
+    width: 12%;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.nome__avaliador {
+    font-weight: 700;
+}
+
+.verificaçao__avaliaçao {
+    color: var(--rosa);
+}
+
+.descriçao__avaliaçao {
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 0.5rem;
+    margin-right: 1.5rem;
+    line-height: 1.2rem;
+}
+
+.sub__avali {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-left: 0.5rem;
 }
