@@ -115,6 +115,88 @@ body {
 /* versão desktop */
 
 @media screen and (min-width: 1440px) {
-   
+   body {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 8rem 10rem;
+    width: 80vw;
+   }
+
+   .titulo__inicio {
+    font-size: 60px;
+    width: 30vw;
+    text-align: start;
+    line-height: 55px;
+    padding: 0;
+    margin-bottom: 2rem;
+   }
+
+   .descriçao__inicio {
+    display: flex;
+    text-align: start;
+    font-size: 22px;
+    width: 30vw;
+    line-height: 30px;
+   }
+
+   .container__estrelas {
+    width: 30vw;
+    margin-left: 10rem;
+   }
+
+   .bloco__primario {
+    margin-right: 2.5rem;
+   }
+
+   .bloco__secundario {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+   }
+
+   .bloco__terciario {
+    margin-left: 2rem;
+   }
+
+   .caixa__estrelas {
+    display: flex;
+   }
+
+   .imagem__estrelas {
+    margin-left: 0.3rem;
+   }
+
+   .descriçao__estrelas {
+    font-size: 18px;
+    margin-left: 1.8rem;
+   }
+
+   .container__avaliaçao {
+    margin-top: 5rem;
+   }
+
+   .sessao__avaliaçao {
+    display: flex;
+    flex-direction: row;
+   }
+
+   .caixa__avaliaçao {
+    height: 20vh;
+    font-size: 22px;
+   }
+
+   .imagem__avaliaçao {
+    width: 18%;
+   }
+
+   .sub__avali {
+    margin-left: 1rem;
+   }
+
+   .descriçao__avaliaçao {
+    font-size: 20px;
+    text-align: start;
+    line-height: 1.5rem;
+    margin-right: 0;
+   }
 }
    
